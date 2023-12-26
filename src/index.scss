@@ -19,13 +19,15 @@ code {
 .container {
   width: 1320px
 }
+.col-2 {
+  width:16.66%;
+}
 .col-4 {
   width: 33.33%;
   padding:15px;
 }
 .col-3 {
   width:25%;
-  padding: 15px;
 }
 .col-6 {
   width:50%;
@@ -66,7 +68,7 @@ button {
   }
 }
 .col-image {
- //margin-top: 246px;
+
   width: 100px;
   align-items: center;
   display: flex;
@@ -81,6 +83,10 @@ button {
     font-size: 18px;
     line-height: 26px;
     width: 250px;
+    display: flex;
+  }
+  p {
+    color: gray;
   }
 
   &__h5 {
@@ -91,6 +97,18 @@ button {
     line-height: normal;
   }
 }
+.text-fot {
+  display: flex;
+  justify-content: center;
+  margin-top:120px;
+  &__span {
+    color:#FF715B;
+  }
+}
+.textat {
+  margin-top: 189px;
+}
+
 .Top {
   display: flex;
   margin-top: 330px;
@@ -114,15 +132,46 @@ button {
 
   }
 }
+.button {
+  padding:13px 19px;
+}
+.div {
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+.text-card {
+  padding: 20px 0 0 25px;
+}
 .imgh {
   width:100%;
   height:100%;
 }
+.Vive {
+  display: flex;
+  justify-content: center;
+  margin:56px 0;
+}
+.svg-moiak {
+  margin: -75px ;
+}
+.kub {
+  display: flex;
+  justify-content: right;
+}
+.boxik {
+  margin-left: 35px;
+}
+.kub-svg {
+ margin: 0px  -40px -90px ;
+
+}
 .svg-text {
   gap: 16px;
-  //margin: 325px 0 30px 0;
   &__moiak {
-    width:100%
+    width:100%;
+    position: relative;
+    z-index: 1;
   }
   &__svg {
     margin: 80px 0 ;
@@ -134,4 +183,25 @@ button {
 }
 .ima {
   width: 100%;
+}
+.quick {
+  &__p{
+    color: #000;
+    &:hover {
+      color: #FF715B;
+      transition: 0.6s;
+    }
+  }
+}
+.Choose {
+  display: flex;
+  text-align:center;
+  justify-content: center;
+}
+.Choosee {
+  font-size: 48px;
+  margin: 100px 0;
+}
+.contact {
+  gap: 10px;
 }
